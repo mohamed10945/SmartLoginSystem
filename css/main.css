@@ -1,0 +1,45 @@
+body{
+    background-color: #24353F;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#SmartForm .layer{
+    color: #17A2B8;
+    position: fixed;
+    background-color: #24353F;
+    box-shadow: 0 0  20px  #000;
+    
+}
+#SmartForm .Loginlayer{
+    display: block;
+}
+#SmartForm .SignupLayer{
+    display: none;
+}
+#loginForm input , #SignForm input{
+    color: white;
+    background-color: #24353F;
+    margin-top:20px ;
+}
+#loginForm button , #SignForm button{
+   border: 2px solid #17A2B8;
+   color: #17A2B8;
+
+}
+#loginForm button:hover , #SignForm button:hover{
+    background-color: #17A2B8;
+    color: white;
+}
+#loginForm .pt-3 , #SignForm .pt-3{
+    color: #fff;
+}
+#loginForm .pt-3 a , #SignForm .pt-3 a{
+    text-decoration: none;
+    color: #fff;
+}
+#loginForm .pt-3 a:hover , #SignForm .pt-3 a:hover{
+    text-decoration: underline;
+}
+#register{
+    display: none;
+}
